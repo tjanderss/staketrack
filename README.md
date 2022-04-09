@@ -1,5 +1,5 @@
 # staketrack
-Track &amp; estimate earnings of Streamr broker nodes
+Track &amp; estimate earnings (only in EUR for now) of Streamr broker nodes
 
 ## Usage
 Prerequisities:
