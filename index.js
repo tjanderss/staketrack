@@ -81,7 +81,7 @@ const executeGraphQuery = async (queryType, address) => {
 }
 
 const fetchRewards = () => Promise.all(config.nodeAddresses.map(async (address) => {
-  console.log(`Getting rewards, balances and transactions for ${mask(address)}`);
+  console.log(`Getting balances and reward details for node ${mask(address)}`);
   const streamrRewardsData = await executeHttpRequest(`${apiEndpoints.streamrNetwork}/datarewards/${address}`, {
     method: 'get',
     headers: { 'Content-Type': 'application/json' }
