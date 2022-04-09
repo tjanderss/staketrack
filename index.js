@@ -38,7 +38,7 @@ const getGraphQueries = (address) => {
 
 const executeHttpRequest = async (url, params) => {
   // console.log(`>> ${params.method.toUpperCase()} ${url}`)
-  return (await fetch(url, params)).json;
+  return (await fetch(url, params)).json();
 }
 
 const getInterestRates = async () => {
