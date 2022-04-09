@@ -1,0 +1,7 @@
+export default {
+  nodeAddresses: [
+    "0x12345...",
+    "0x12346...",
+    "0x12347...",
+  ]
+}
